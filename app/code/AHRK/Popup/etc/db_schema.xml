@@ -18,7 +18,7 @@
                 comment="Popup Modification Time"/>
         <column xsi:type="smallint" name="is_active" unsigned="false" nullable="false" identity="false"
                 default="1" comment="Is Popup Active"/>
-        <column xsi:type="smallint" name="timout" unsigned="false" nullable="false" identity="false"
+        <column xsi:type="smallint" name="timeout" unsigned="false" nullable="false" identity="false"
                 default="1" comment="Popup Timeout"/>
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="popup_id"/>
